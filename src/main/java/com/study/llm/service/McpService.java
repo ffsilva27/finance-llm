@@ -17,7 +17,6 @@ public class McpService {
     public String process(String userId, String userMessage) {
         log.info("Enviado mensagem para LLM...");
         var assistanteMessage =  assistant.chat(userId, userMessage);
-        log.info("Mensagem da LLM: {}", assistanteMessage);
         return assistanteMessage;
     }
 
