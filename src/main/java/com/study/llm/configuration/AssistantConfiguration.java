@@ -27,7 +27,7 @@ public class AssistantConfiguration {
         return AiServices.builder(FinanceAssistant.class)
                 .chatLanguageModel(model)
                 .chatMemoryProvider(provider)
-                .tools(tools)
+                .tools(tools.toArray())
                 .build();
     }
 
