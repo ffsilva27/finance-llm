@@ -17,6 +17,7 @@ public class CustomerServiceImpl {
     private final CustomerMapper mapper;
 
     public UserIdentifierDTO getCustomerBySerialNumberIdentification(String serialNumber) {
+        log.info("Buscando usuário no BD com base no serialNumber: {}", serialNumber);
         return this.repository.findBySerialNumberIdentification(serialNumber)
                 .map(mapper::tDto)
                 .orElse(null);

@@ -20,6 +20,7 @@ public class BalanceServiceImpl {
     private final BalanceMapper mapper;
 
     public BalanceDTO getBalanceByUserId(@NonNull UUID customerId) {
+        log.info("Buscando saldo no BD com base no userId: {}", customerId);
         return this.repository.findByCustomerId(customerId)
                 .map(mapper::toDto)
                 .orElse(null);

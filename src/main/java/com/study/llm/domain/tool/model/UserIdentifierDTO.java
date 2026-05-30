@@ -17,6 +17,6 @@ public class UserIdentifierDTO {
 
     private UUID userId;
     private String name;
-    private Long serialNumberIdentifier;
+    private String serialNumberIdentifier;
 
 }
