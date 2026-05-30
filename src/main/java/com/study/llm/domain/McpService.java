@@ -1,4 +1,4 @@
-package com.study.llm.service;
+package com.study.llm.domain;
 
 import org.springframework.stereotype.Service;
 

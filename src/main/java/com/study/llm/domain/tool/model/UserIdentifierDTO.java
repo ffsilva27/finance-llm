@@ -1,4 +1,6 @@
-package com.study.llm.service.tool.model;
+package com.study.llm.domain.tool.model;
+
+import java.util.UUID;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,7 +15,7 @@ import lombok.Setter;
 @Setter
 public class UserIdentifierDTO {
 
-    private Long userId;
+    private UUID userId;
     private String name;
     private Long serialNumberIdentifier;
 

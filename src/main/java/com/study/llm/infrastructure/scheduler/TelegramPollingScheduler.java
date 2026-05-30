@@ -3,9 +3,9 @@ package com.study.llm.infrastructure.scheduler;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+import com.study.llm.domain.McpService;
 import com.study.llm.infrastructure.client.telegram.TelegramClient;
 import com.study.llm.infrastructure.client.telegram.model.TelegramUpdate;
-import com.study.llm.service.McpService;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

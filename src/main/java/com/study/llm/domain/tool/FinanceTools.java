@@ -1,4 +1,4 @@
-package com.study.llm.service.tool;
+package com.study.llm.domain.tool;
 
 public interface FinanceTools {
 

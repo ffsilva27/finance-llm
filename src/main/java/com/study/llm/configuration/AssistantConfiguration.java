@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.study.llm.service.tool.FinanceTools;
+import com.study.llm.domain.tool.FinanceTools;
 
 import dev.langchain4j.memory.chat.ChatMemoryProvider;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;

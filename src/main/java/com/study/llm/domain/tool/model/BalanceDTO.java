@@ -1,9 +1,10 @@
-package com.study.llm.service.tool.model;
+package com.study.llm.domain.tool.model;
 
 import java.math.BigDecimal;
+import java.util.UUID;
 
 public record BalanceDTO (
-    Long userId,
+    UUID userId,
     BigDecimal balanceValue
 ) {
 

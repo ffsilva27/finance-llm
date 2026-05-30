@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.study.llm.controller.model.ChatRequest;
-import com.study.llm.service.McpService;
+import com.study.llm.domain.McpService;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
