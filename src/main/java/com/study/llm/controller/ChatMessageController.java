@@ -23,7 +23,7 @@ public class ChatMessageController {
     @PostMapping()
     public String chat(@RequestBody @Valid ChatRequest requestBody) {
         log.info("Mensagem recebida para processamento pelo MCP financeiro...");
-        var response = mcp.process(requestBody.userId(), requestBody.message());
+        var response = mcp.process(requestBody.memoryId(), requestBody.message());
         return response;
     }
 

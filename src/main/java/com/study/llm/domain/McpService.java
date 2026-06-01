@@ -16,9 +16,9 @@ public class McpService {
 
     private final FinanceAssistant assistant;
 
-    public String process(String userId, String userMessage) {
+    public String process(String memoryId, String userMessage) {
         log.info("Enviado mensagem para LLM...");
-        var assistanteMessage =  assistant.chat(userId, userMessage, LocalDate.now());
+        var assistanteMessage =  assistant.chat(memoryId, userMessage, LocalDate.now());
         return assistanteMessage;
     }
 
