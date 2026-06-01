@@ -1,12 +1,14 @@
 package com.study.llm.domain.tool.impl;
 
 import java.util.Objects;
+import java.util.UUID;
 
 import org.springframework.stereotype.Component;
 
 import com.study.llm.domain.balance.service.CustomerServiceImpl;
 import com.study.llm.domain.tool.FinanceTools;
 import com.study.llm.domain.tool.model.UserIdentifierDTO;
+import com.study.llm.infrastructure.persistence.entity.CustomerEntity;
 
 import dev.langchain4j.agent.tool.Tool;
 import lombok.RequiredArgsConstructor;

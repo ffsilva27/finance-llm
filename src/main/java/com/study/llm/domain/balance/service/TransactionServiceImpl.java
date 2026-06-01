@@ -20,11 +20,20 @@ import lombok.extern.slf4j.Slf4j;
 public class TransactionServiceImpl {
     private final TransactionRepository repository;
     private final TransactionMapper mapper;
+    private final CustomerServiceImpl CustomerServiceImpl;
 
     public List<TransactionDTO> getLast5TransactionsByCustomerId(UUID customerId) {
         log.info("Obtendo as ultimas transações do customerId: {}", customerId);
         var last5Transactions = this.repository.findLastFiveRecentsTransactionByCustomerId(customerId, PageRequest.of(0, 5));
         return mapper.toDtoList(last5Transactions);
+    }
+
+    public TransactionDTO createNewTransaction(TransactionDTO dto) {
+        var customerEntity = this.CustomerServiceImpl.getCustomerEntityById(dto.getUserId());
+        log.info("Consumidor identificado para referenciar na transação.");
+        var transaction = mapper.toEntity(dto, customerEntity);
+        repository.save(transaction);
+        return dto;
     }
 
 }

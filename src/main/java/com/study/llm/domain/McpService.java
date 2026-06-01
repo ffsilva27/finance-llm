@@ -1,5 +1,7 @@
 package com.study.llm.domain;
 
+import java.time.LocalDate;
+
 import org.springframework.stereotype.Service;
 
 import com.study.llm.configuration.FinanceAssistant;
@@ -16,7 +18,7 @@ public class McpService {
 
     public String process(String userId, String userMessage) {
         log.info("Enviado mensagem para LLM...");
-        var assistanteMessage =  assistant.chat(userId, userMessage);
+        var assistanteMessage =  assistant.chat(userId, userMessage, LocalDate.now());
         return assistanteMessage;
     }
 

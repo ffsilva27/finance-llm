@@ -1,5 +1,7 @@
 package com.study.llm.domain.balance.service;
 
+import java.util.UUID;
+
 import org.springframework.stereotype.Service;
 
 import com.study.llm.domain.tool.model.UserIdentifierDTO;
@@ -22,6 +24,14 @@ public class CustomerServiceImpl {
         return this.repository.findBySerialNumberIdentification(serialNumber)
                 .map(mapper::tDto)
                 .orElse(null);
+    }
+
+    public CustomerEntity getCustomerEntityById(UUID customerUuid) {
+        var customerOpt = repository.findById(customerUuid);
+        if (customerOpt.isPresent()) {
+            return customerOpt.get();
+        }
+        throw new IllegalArgumentException(String.format("Customer not found with customerId: %s", customerUuid));
     }
 
 }
