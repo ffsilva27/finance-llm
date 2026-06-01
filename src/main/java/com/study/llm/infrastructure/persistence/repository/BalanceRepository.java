@@ -13,6 +13,6 @@ import com.study.llm.infrastructure.persistence.entity.BalanceEntity;
 @Repository
 public interface BalanceRepository extends JpaRepository<BalanceEntity, UUID>{
 
-    @Query("select b from BalanceEntity b where b.customer = :customerId")
+    @Query("select b from BalanceEntity b where b.customer.id = :customerId")
     public Optional<BalanceEntity> findByCustomerId(@Param("customerId") UUID customerId);
 }

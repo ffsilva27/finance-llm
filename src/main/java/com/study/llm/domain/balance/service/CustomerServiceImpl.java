@@ -4,6 +4,7 @@ import org.springframework.stereotype.Service;
 
 import com.study.llm.domain.tool.model.UserIdentifierDTO;
 import com.study.llm.domain.tool.model.mapper.CustomerMapper;
+import com.study.llm.infrastructure.persistence.entity.CustomerEntity;
 import com.study.llm.infrastructure.persistence.repository.CustomerRepository;
 
 import lombok.RequiredArgsConstructor;
