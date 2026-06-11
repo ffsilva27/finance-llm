@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class LlmApplication implements CommandLineRunner {
+public class LlmApplication implements CommandLineRunner {  
 	public static void main(String[] args) {
 		SpringApplication.run(LlmApplication.class, args);
 	}
@@ -16,5 +16,6 @@ public class LlmApplication implements CommandLineRunner {
 	public void run(String... args) {
 		System.out.println("Running...");
 	}
+	//TODO: Ideias para uso de RAG: Uma base para respostas sobre educação financeira e um categorizador das compras para ser usado ao adicionar uma compra.
 
 }
