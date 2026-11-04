@@ -1,0 +1,9 @@
+---
+title: Atuação do Banco Central na prevenção de golpes e fraudes
+source: Banco_Central
+url: https://www.bcb.gov.br/meubc/faqs/p/atuacao-do-banco-central-na-prevencao-de-golpes-e-fraudes
+---
+
+# Atuação do Banco Central na prevenção de golpes e fraudes
+
+​ O Conselho Monetário Nacional (CMN) e o Banco Central (BC), em geral, não disciplinam procedimentos específicos de segurança relativos a golpes e fraudes, inclusive alertas emitidos pelas instituições autorizadas, levando em consideração as peculiaridades delas. Mas, o BC segue fomentando e as instituições autorizadas trabalham para implementar mecanismos adicionais de segurança aos produtos e serviços financeiros oferecidos à população, que dificultem e reduzam o incentivo ao cometimento de golpes e fraudes. Como, por exemplo: Garantir que, ao abrir uma conta, haja procedimentos e controles para verificar a identidade do cliente e a autenticidade das suas informações; Buscar a integridade, a confiabilidade, a segurança e o sigilo das transações realizadas na contratação de operações e na prestação de serviços; e Implementar a política de segurança cibernética para o processamento e armazenamento de dados dos clientes. Além disso, outras normas do BC foram feitas para que houvesse mais procedimentos e controles para prevenção de fraudes em casos específicos, como no serviço de pagamentos ( Resolução BCB nº 142 , de 2021). Também a Resolução Conjunta nº 6 e a Resolução BCB nº 343 , de 2023, foram criadas para que as instituições pudessem compartilhar entre si as informações sobre indícios de ocorrência ou de tentativa de fraudes por elas identificados, por meio de sistema eletrônico, facilitando esse intercâmbio para a identificação e resolução desses casos. A Resolução BCB nº 457 , de 2025, exigiu que os participantes do Pix não cadastrem chaves de pessoas e de empresas cuja situação não esteja regular na Receita Federal e excluem as já cadastradas. ​

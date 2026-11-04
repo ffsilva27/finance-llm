@@ -1,0 +1,9 @@
+---
+title: Como levar seus dados de um banco para outro 
+source: Banco_Central
+url: https://www.bcb.gov.br/meubc/faqs/p/como-levar-seus-dados-de-um-banco-para-outro
+---
+
+# Como levar seus dados de um banco para outro 
+
+Sua autorização (ou consentimento) é necessária para qualquer compartilhamento de dados ou de serviços por meio do Open Finance. Os dados podem ser das suas contas, dos seus cartões de crédito, das suas operações de crédito, das suas operações de câmbio ou dos seus investimentos. Você deve: Acessar seu aplicativo ou internet banking da instituição que deseja que receba seus dados (instituição recebedora de dados); Procurar pela área do Open Finance ou pela funcionalidade “Trazer meus dados" e informar a instituição de onde deseja trazer os seus dados (instituição transmissora dos dados), que é a instituição com a qual você tem relacionamento, como uma conta; Verificar a finalidade, o prazo e demais condições do compartilhamento; Em seguida, você será automaticamente direcionado para a instituição que vai transmitir os seus dados para se autenticar e confirmar o compartilhamento; Após a confirmação, você será redirecionado automaticamente de volta para a instituição recebedora dos dados, que vai lhe informar que o compartilhamento foi realizado. Você pode cancelar o compartilhamento a qualquer momento. Por motivos de segurança, quando os dados são compartilhados no Open Finance, eles não são enviados para uma estrutura centralizada, e sim são transmitidos da instituição transmissora diretamente para a instituição recebedora. Cada autorização de compartilhamento é dada pelo cliente de forma direta e vale somente para as duas instituições escolhidas (recebedora e transmissora). Para compartilhar dados de outras instituições, é necessário realizar novas autorizações.

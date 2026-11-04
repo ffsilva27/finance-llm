@@ -1,0 +1,9 @@
+---
+title: Processo Administrativo Sancionador
+source: Banco_Central
+url: https://www.bcb.gov.br/meubc/faqs/p/processo-administrativo-sancionador
+---
+
+# Processo Administrativo Sancionador
+
+​O Processo Administrativo Sancionador (PAS) é o meio utilizado pelo Banco Central (BC) para apurar infrações e aplicar penalidades e medidas coercitivas às instituições financeiras e demais instituições supervisionadas e aos integrantes do Sistema de Pagamentos Brasileiro (SPB), de acordo com as disposições da Lei 13.506, de 2017, e da Resolução BCB 131, de 2021. Importante! O PAS também se aplica a pessoas físicas ou jurídicas que: exerçam, sem a devida autorização, atividade sujeita à supervisão ou à vigilância do BC; prestem serviço de auditoria independente para instituição supervisionada pelo BC ou de auditoria cooperativa (inclusive os administradores e responsáveis técnicos dessas empresas de auditoria); e atuem como administradores, membros da diretoria, do conselho de administração, do conselho fiscal, do comitê de auditoria e de outros órgãos previstos no estatuto ou no contrato social de instituição supervisionada pelo BC. O PAS obedece, entre outros, aos princípios da legalidade, da finalidade, da motivação, da razoabilidade, da proporcionalidade, da moralidade, da ampla defesa, do contraditório da segurança jurídica, do interesse público e da eficiência. O Banco Central (BC) utiliza o e-BC, Sistema de Gerenciamento Eletrônico de Documentos do Banco Central, que integra o protocolo digital, como solução para o trâmite de processos administrativos eletrônicos. As pessoas físicas e jurídicas devem manter atualizados no BC seu endereço, seu telefone e seu e-mail, e também os de seu procurador, quando houver, e acompanhar o andamento do processo. Para mais informações sobre PAS, consulte aqui . A certidão negativa da existência de PAS pode ser obtida aqui . O passo-a-passo que resume a tramitação do processo está na imagem abaixo:

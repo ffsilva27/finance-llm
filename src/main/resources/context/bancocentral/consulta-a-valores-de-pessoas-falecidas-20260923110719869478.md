@@ -1,0 +1,9 @@
+---
+title: Consulta a valores de pessoas falecidas
+source: Banco_Central
+url: https://www.bcb.gov.br/meubc/faqs/p/consulta-a-valores-de-pessoas-falecidas
+---
+
+# Consulta a valores de pessoas falecidas
+
+Para verificar se há dinheiro a receber em bancos ou outras instituições financeiras de uma pessoa falecida, acesse o Sistema de Valores a Receber (SVR) no site do Banco Central (BC). Não é necessário fazer login. Basta informar o CPF e a data de nascimento da pessoa falecida. No Sistema de Valores a Receber (SVR), clique no botão 'Valores a receber de pessoa falecida' e aceite o Termo de Responsabilidade de consulta a dados de terceiros. Atenção! Você precisa ser herdeiro(a), testamentário(a), inventariante ou representante legal, para acessar os dados da pessoa falecida. Em seguida, informe CPF e data de nascimento da pessoa falecida e você terá acesso a mais informações. O sistema informa em qual instituição estão os valores dos falecidos, os dados de contato da instituição e a faixa do valor, segundo a tabela abaixo: a)de R$ 0,01 a R$10,00 b)de R$ 10.01 a R$100,00 c)de R$ 100,01 a R$ 1.000,00 d)acima de R$ 1.000,01 De posse dessas informações, você pode entrar em contato com a instituição e combinar a forma de apresentar a documentação necessária para comprovar que você é herdeiro(a), testamentário(a), inventariante ou representante legal do falecido. Nesse caso, não é possível solicitar o valor diretamente pelo sistema. Não há prazo definido em norma para devolução de valor de falecido. Após consultar os dados no Sistema de Valores a Receber (SVR), a pessoa deverá entrar em contato com a instituição e questionar a documentação necessária a ser apresentada, bem como combinar a forma de devolução. O sistema traz uma lista de documentos mínimos, mas as instituições podem solicitar outros que entenderem necessários. ​​​

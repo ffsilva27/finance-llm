@@ -1,0 +1,9 @@
+---
+title: Tipos de operações crédito externo e responsáveis pela prestação da informação
+source: Banco_Central
+url: https://www.bcb.gov.br/meubc/faqs/p/tipos-de-operacoes-credito-externo-e-responsaveis-pela-prestacao-da-informacao
+---
+
+# Tipos de operações crédito externo e responsáveis pela prestação da informação
+
+A prestação das informações no SCE – Crédito deve ser feita pelo devedor da operação de crédito externo. Devendo observar que: a) Pessoas Físicas e Jurídicas do Setor Privado: Devem declarar sempre que realizarem operações com valor de denominação igual ou acima do piso declaratório, conforme a tabela a seguir: SCE-Crédito Deve ser realizada pelo devedor, seja para recurso ingressado ou mantido no exterior: ​ ​ empréstimo direto emissão de títulos no mercado internacional emissão de títulos de colocação privada no mercado interno financiamento, inclusive de organismos internacionais Se valor ≥ US$1 milhão* ​ importação financiada de bens ou serviços Se Prazo pagamento > 180 dias Se valor ≥ US$500 mil* ​ recebimento antecipado de exportação e arrendamento mercantil financeiro externo Se prazo pagamento > 360 dias Se valor ≥ US$1 milhão* ​ ​ * Ou seu equivalente em outras moedas. b) Pessoa Jurídica do Setor Público: a prestação de informações de operação de crédito externo contratada por entes da Administração Pública Direta e Indireta federal, estadual, municipal e do Distrito Federal deve ser realizada independentemente do valor da operação. Os pisos declaratórios não são aplicados e todas as operações devem ser registradas. A obrigatoriedade de prestação de informações de operações de crédito externo é aplicável a cada operação, individualmente. Para mais informações sobre a obrigatoriedade de prestação de informações de crédito externo, consultar a Resolução BCB 278 , de 2022.

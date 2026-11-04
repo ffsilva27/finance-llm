@@ -1,0 +1,9 @@
+---
+title: Vítima pagou um boleto e caiu em um golpe 
+source: Banco_Central
+url: https://www.bcb.gov.br/meubc/faqs/p/vitima-pagou-um-boleto-e-caiu-em-um-golpe
+---
+
+# Vítima pagou um boleto e caiu em um golpe 
+
+​ Atualmente, todos os boletos emitidos por bancos são registrados conforme convenção. Isso significa que os dados dos beneficiários dos boletos sempre aparecem quando a pessoa vai pagar o boleto e que os boletos podem ser pagos em qualquer banco. Por isso, é importante: ao pagar o boleto, que a pessoa verifique se o nome do beneficiário do pagamento é uma pessoa física ou a empresa contratada, e se o banco destinatário é o mesmo que consta no boleto. Se tiver alguma informação diferente, é melhor não fazer o pagamento; desconfiar de código de barras com falhas e evitar ligar no telefone inscrito no boleto, porque pode ser do próprio golpista, esperando para passar instruções para pagar diretamente na conta dele; entrar em contato direto com a prestadora de serviços que deveria gerar o boleto, encontrando seu contato em meios oficiais, como sites, por exemplo; não imprimir o boleto fora do site ou e-mail oficial do serviço que contratou. Se a vítima pagou um boleto indevidamente, o primeiro passo é entrar em contato com seu banco para relatar o caso e contestar a compra realizada com cartão. Em paralelo, é recomendável registrar um Boletim de Ocorrência. Se a situação não for resolvida, a vítima pode: Procurar o Procon de seu estado ou o Poder Judiciário; ou Registrar uma reclamação no BC. Atenção! Caso o documento apresente um QR Code, esse código é o QR de Pix e o pagamento por meio dele é instantâneo na conta destinatária, sem janelas de compensação de boletos (que ocorrem em dias úteis). Na prática, pagar documento com QR Code é o mesmo que fazer um Pix. Para não cair no golpe do boleto falso, o BC explica:

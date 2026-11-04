@@ -1,0 +1,9 @@
+---
+title: Inclusão do cliente no Cadastro de Cheques sem Fundos (CCF)
+source: Banco_Central
+url: https://www.bcb.gov.br/meubc/faqs/p/inclusao-do-cliente-no-cadastro-de-cheques-sem-fundos-ccf
+---
+
+# Inclusão do cliente no Cadastro de Cheques sem Fundos (CCF)
+
+​O cliente será incluído no Cadastro de Emitentes de Cheques Sem Fundos (CCF), no prazo de 15 dias da data de devolução do cheque, caso realize uma das ocorrências a seguir: tiver o mesmo cheque devolvido em duas datas diferentes por falta de fundos; emitir cheque referente a conta de depósitos encerrada; e incidir em prática espúria/antiética, ou seja: forem apresentados, no mesmo dia, mais de três cheques sem fundos de valor de até R$3,41, referentes à mesma conta de depósitos; ou sejam pagos, em datas diferentes, em razão do "compromisso de pronto acolhimento", 3 ou mais cheques sem fundos de valor de até R$3,41 cada. A inclusão de ocorrência no CCF relativa a cheque emitido por titular de conta conjunta deve ficar restrita ao emitente do cheque. A inscrição deve ser feita com os seguintes dados: nome do emitente do cheque sem fundos; número de inscrição no CPF ou no CNPJ do titular emitente do cheque sem fundos; número-código do banco e da agência que comandou a inclusão; data de inclusão e de exclusão da ocorrência; e quantidade de ocorrências incluídas no cadastro de emitentes de cheques sem fundos, por emitente, banco e agência. Para consultar o CCF, você pode utilizar o Sistema Registrato, disponível no Meu BC Cadastro CCF . Destaque-se que o acesso a esse sistema é feito exclusivamente pela Conta Gov.br. Para saber mais sobre o registrato, O BC te explica no vídeo a seguir: [[div class="embed-responsive embed-responsive-16by9"]] [[iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OM1IYfK8EYA" allowfullscreen]][[/iframe]][[/div]].

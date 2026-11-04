@@ -1,0 +1,9 @@
+---
+title: Vítima caiu no golpe do falso entregador/motoboy 
+source: Banco_Central
+url: https://www.bcb.gov.br/meubc/faqs/p/vitima-caiu-no-golpe-do-falso-entregador-motoboy
+---
+
+# Vítima caiu no golpe do falso entregador/motoboy 
+
+​ V ítima recebeu ligação falsa do banco dizendo que seu cartão foi clonado e que um motoboy, supostamente autorizado pelo banco, irá buscá-lo. O motoboy finge que destrói o cartão, mas mantem seu chip intacto. Também há casos de vítimas que são informadas de que receberão um presente em casa e que devem pagar uma taxa ao entregador. Em algumas situações, o suposto entregador pede para tirar fotos ou fazer vídeos com a vítima, utilizando esses dados para abertura de contas digitais ou contratação de empréstimo por reconhecimento facial. A vítima desse golpe deve entrar em contato imediatamente com seu banco para pedir o cancelamento do cartão. Além disso, se pagou alguma taxa, deve pedir ao banco para solicitar o dinheiro de volta. Se a situação não for resolvida, a vítima pode: Procurar o Procon de seu estado ou o Poder Judiciário; ou Registrar uma reclamação no BC. Dicas: Desconfiar ao receber ligação do banco, dizendo que o cartão foi clonado e que um motoboy, supostamente autorizado pelo banco, irá buscá-lo. Mesmo se for em outros casos, inclusive com o cartão bloqueado; Não receber presentes desconhecidos de entregadores em casa; Não efetuar pagamento de taxas de entregas de algo que é desconhecido; Não permitir que tirem fotos ou façam vídeos, pois eles podem ser utilizados para abertura de contas digitais ou contratação de empréstimo por reconhecimento facial; Em caso de fraude ou clonagem do cartão, pedir o cancelamento ao banco pelos canais oficiais, triturar o cartão e jogar os restos no lixo; Nunca fornecer a senha a outra pessoa; Sempre pedir comprovante das operações que realiza com cartões.
