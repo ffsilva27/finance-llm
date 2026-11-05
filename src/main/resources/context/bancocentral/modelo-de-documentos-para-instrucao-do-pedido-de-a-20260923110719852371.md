@@ -1,5 +1,5 @@
 ---
-title: Modelo de documentos para instrução do pedido de autorização - Instituições regidas pela Resolução CMN 4.970, de 2021:
+title: Modelo de documentos para instrução do pedido de autorização - Instituições regidas pela Resolução CMN 4.970, de 2021
 source: Banco_Central
 url: https://www.bcb.gov.br/meubc/faqs/p/modelo-de-documentos-para-instrucao-do-pedido-de-autorizacao-instituicoes-regidas-pela-resolucao-cmn-4-970-de-2021
 ---

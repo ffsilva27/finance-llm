@@ -1,5 +1,5 @@
 ---
-title: Modelo de documentos para pedido de autorização - Instituições NÃO regidas pela Resolução CMN 4.970, de 2021:
+title: Modelo de documentos para pedido de autorização - Instituições NÃO regidas pela Resolução CMN 4.970, de 2021
 source: Banco_Central
 url: https://www.bcb.gov.br/meubc/faqs/p/modelo-de-documentos-para-pedido-de-autorizacao-instituicoes-nao-regidas-pela-resolucao-cmn-4-970-de-2021
 ---
