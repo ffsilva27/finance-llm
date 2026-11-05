@@ -1,0 +1,15 @@
+---
+title: Fundos de Investimentos em Direitos Creditórios (FIDC) | B3
+source: B3
+url: https://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-fixa/fundos-de-investimentos-em-direitos-creditorios-fidc.htm
+---
+
+# Fundos de Investimentos em Direitos Creditórios (FIDC) | B3
+
+O Fundo de Investimento em Direitos Creditórios (FIDC) é uma comunhão de recursos que destina parcela acima de 50% do seu respectivo patrimônio líquido para aplicações em direitos creditórios.
+Cabe ao administrador, uma instituição financeira específica, constituir o fundo e realizar o processo de captação de recursos junto aos investidores através da venda de cotas.
+Os FIDCs são uma forma de investimento em renda fixa constituídos sob a forma de condomínio aberto, em que os cotistas podem solicitar o resgate de suas cotas de acordo com o disposto no regulamento do fundo, ou fechado, em que as cotas somente são resgatadas ao término do prazo de duração do fundo, de cada série ou classe de cotas conforme seu regulamento, ou em virtude de sua liquidação. Admite-se ainda, a amortização de cotas por disposição do regulamento ou por decisão da assembleia geral de cotistas.
+Os direitos creditórios que compõem a carteira de ativos de um FIDC, são provenientes dos créditos que uma empresa tem a receber, como duplicatas, cheques e outros. Por exemplo, a empresa vende um produto a prazo para um consumidor através de cartão de crédito e estes recebíveis (as parcelas a serem pagas pelo consumidor) podem ser vendidos para um FIDC na forma de direitos creditórios, permitindo à empresa, antecipar o recebimento destes recursos em troca de um taxa de desconto que, por outro lado, remunera os investidores do fundo.
+Os créditos originados de transações realizadas nos segmentos financeiro, comercial, industrial, imobiliário, de hipotecas, de arrendamento mercantil e de prestação de serviços, na forma de recebíveis, podem se tornar ativos de um FIDC e os investidores, que adquirem suas cotas, ficam indiretamente expostos ao retornos e riscos de tais recebíveis.
+Todo o FIDC possui um regulamento que, entre outras disposições, determina a política de investimento do fundo, suas características de atuação, entre as quais os critérios de composição e de diversificação da carteira, os riscos de crédito, de mercado e demais riscos envolvidos e, se for o caso, o segmento em que o fundo atuará.
+Uma figura importante em um FIDC é o custodiante, que tem entre suas atribuições: (i) validar os direitos creditórios em relação aos critérios de elegibilidade estabelecidos no regulamento; (ii) receber e verificar a documentação que evidencia o lastro dos direitos creditórios representados por operações financeiras, comerciais e de serviços; (iii) realizar a liquidação física e financeira dos direitos creditórios; (iv) custodiar a documentação relativa aos direitos creditórios e demais ativos integrantes da carteira do fundo; e (v) cobrar e receber, em nome do fundo, pagamentos, resgate de títulos ou qualquer outra renda relativa aos títulos custodiados.

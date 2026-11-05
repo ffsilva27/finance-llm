@@ -1,0 +1,9 @@
+---
+title: Como se dá o acesso ao SCE-IED?
+source: Banco_Central
+url: https://www.bcb.gov.br/meubc/faqs/p/como-um-investidor-estrangeiro-faz-para-registrar-um-investimento-no-sistema-rde
+---
+
+# Como se dá o acesso ao SCE-IED?
+
+O acesso ao SCE-IED é realizado em nossa página na Internet seguindo: “Estabilidade Financeira > Câmbio e Capitais Internacionais > Capitais Internacionais > Prestação de informações de capitais estrangeiros no país > Acesso aos Sistemas > SCE-IED (eventos a partir de 01/10/2024) ou SCE-IED (eventos até 30/09/2024) ”. ​ É possível acessar o sistema tanto pela conta gov.br quanto pelo credenciamento no Sisbacen. Login via conta gov.br: O usuário que obtiver o cadastro na Conta Gov.br poderá acessar o sistema a depender do selo de autenticação que receber. a) Pessoa física agindo em nome de uma pessoa jurídica: esse tipo de acesso está restrito à pessoa física previamente cadastrada como mandatário de receptor, em funcionalidade específica do sistema (ver capítulo 7 – Gestão de Mandatários), para a prestação de informações ao Banco Central. A conta Gov.br deve ter o Nível PRATA ou OURO. b) Pessoa física agindo em nome de Instituição Financeira: Não poderá realizar o acesso ao sistema utilizando a Conta Gov.br. O acesso é restrito via login Sisbacen. - Caso tenha dúvidas a respeito do Gov.br, acesse o site Dúvidas na conta gov.br - Governo Digital (www.gov.br). Login Sisbacen: a) Pessoa jurídica: informar o Código da Instituição (5 dígitos) e o Código da Dependência (4 dígitos), obtidas no credenciamento no Sisbacen, bem como o login do usuário (campo Operador) e a Senha. Formato da conta institucional = IIIIIDDDD.OPERADOR. Clicar no botão “Entrar”. b) Pessoa física: O usuário deve selecionar CPF na tela de identificação, inserir os 9 primeiros dígitos de seu CPF no primeiro campo e sua senha no campo seguinte, e clicar no botão “Entrar”.

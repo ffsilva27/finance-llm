@@ -32,3 +32,6 @@ spring:
 telegram:
   token: token_telegram
   url: https://api.telegram.org/bot
+
+rag:
+  run-ingest: true

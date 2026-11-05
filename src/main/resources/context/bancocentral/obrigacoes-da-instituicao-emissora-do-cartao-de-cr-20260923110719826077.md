@@ -1,0 +1,9 @@
+---
+title: Obrigações da instituição emissora do cartão de crédito
+source: Banco_Central
+url: https://www.bcb.gov.br/meubc/faqs/p/obrigacoes-da-instituicao-emissora-do-cartao-de-credito
+---
+
+# Obrigações da instituição emissora do cartão de crédito
+
+1. A instituição emissora do cartão de crédito deve, por meio de canais de atendimento ágeis e de fácil acesso, disponibilizar ao titular do cartão: i.     a opção de solicitar o pagamento da fatura por meio de débito em conta ou de pagamento recorrente, respeitada a regulamentação vigente, no caso de instituição que mantém contas de depósitos à vista ou contas de pagamento pré-pagas; ii.    as informações sobre as formas e opções disponíveis para a liquidação, inclusive antecipadamente, e o financiamento do saldo devedor da fatura; e iii.   as informações sobre a possibilidade de portabilidade de crédito, nos termos da regulamentação vigente, incluindo orientações para a obtenção de informações sobre os procedimentos necessários para a sua solicitação. 2. A instituição emissora de cartão de crédito deve enviar ao titular da conta, por meio de canais eletrônicos, de forma gratuita, notificações com informações sobre: i.   o vencimento da fatura, com pelo menos 2 dias de antecedência da data de vencimento, incluindo esclarecimentos de que o não pagamento do valor total da fatura resulta na cobrança de juros e encargos; ii.    as consequências do eventual não pagamento do valor obrigatório da fatura e do atraso no pagamento, bem como orientações para acesso às informações referidas no item "1 – II" acima, a partir do dia útil imediatamente posterior à data de vencimento da fatura; iii.   o início de eventual parcelamento do saldo do crédito rotativo e da fatura correspondente; e iv.   o início da cobrança da tarifa de anuidade, após eventual período de isenção da cobrança, se houver, com pelo menos 1 mês de antecedência contado da data de início da cobrança.

@@ -1,0 +1,9 @@
+---
+title: Citação do acusado em Processo Administrativo Sancionador 
+source: Banco_Central
+url: https://www.bcb.gov.br/meubc/faqs/p/citacao-do-acusado-em-processo-administrativo-sancionador
+---
+
+# Citação do acusado em Processo Administrativo Sancionador 
+
+A citação é o ato destinado a comunicar o acusado das irregularidades, ou seja, informar que o Banco Central (BC) instaurou um processo administrativo sancionador contra ele e oferecer-lhe o exercício do direito ao contraditório e à ampla defesa. O ato de citação contém, dentre outros elementos: a identificação do acusado; o dispositivo legal ou regulamentar desobedecido e a sanção prevista; o número do processo; as condições para acesso ao processo ou vista dos autos; e o nome e a assinatura do servidor responsável pelo ato. Importante! Mesmo que o dispositivo legal ou regulamentar e/ou a sanção prevista na norma não estejam indicados na citação ou tenham sido indicados de forma incorreta, a citação será considerada válida, desde que o fato nela descrito represente infração punível. A citação por meio eletrônico é feita pelo Sistema de Correio Eletrônico do BC (BC Correio). Esta forma é utilizada quando o acusado é instituição supervisionada pelo BC ou integrante do Sistema de Pagamento Brasileiro (SPB), pessoa jurídica que presta serviço de auditoria independente para essas instituições ou, ainda, entidade de auditoria cooperativa. Já a citação por via postal, utilizada nos demais casos, é enviada ao endereço do acusado disponível nos bancos de dados existentes no BC. Por isso, é importante que o acusado e seu procurador mantenham esses dados (endereço completo, telefone e e-mail) atualizados no Banco Central. Quando o acusado não for localizado, estiver em local incerto ou inacessível, ou caso se esquive de receber a citação, ela será efetuada por meio de publicação de edital no Diário Eletrônico do Banco Central, disponível no site do BC.
