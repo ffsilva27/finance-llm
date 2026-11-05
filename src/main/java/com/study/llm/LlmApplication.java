@@ -41,6 +41,4 @@ public class LlmApplication implements CommandLineRunner {
         }
         log.info("Running...");
 	}
-	//TODO: Ideias para uso de RAG: Uma base para respostas sobre educação financeira e um categorizador das compras para ser usado ao adicionar uma compra.
-
 }

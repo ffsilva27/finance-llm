@@ -95,7 +95,7 @@ public class DocumentMetadataParser {
                 getValue(metadataMap, "source"),
                 getValue(metadataMap, "url")
         );
-
+        //TODO: Atentar que o content não é propagado, mas sim apenas os headers do front matter
         validateMetadata(documentMetadata);
         return documentMetadata;
     }
