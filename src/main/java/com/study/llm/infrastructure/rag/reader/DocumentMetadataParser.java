@@ -1,7 +1,7 @@
 
-package com.study.llm.infrastructure.rag;
+package com.study.llm.infrastructure.rag.reader;
 
-import com.study.llm.infrastructure.rag.model.DocumentMetadata;
+import com.study.llm.infrastructure.rag.reader.model.DocumentMetadata;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.SafeConstructor;
 import org.yaml.snakeyaml.error.YAMLException;

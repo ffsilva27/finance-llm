@@ -1,4 +1,4 @@
-package com.study.llm.infrastructure.rag;
+package com.study.llm.infrastructure.rag.reader;
 
 import org.springframework.stereotype.Component;
 

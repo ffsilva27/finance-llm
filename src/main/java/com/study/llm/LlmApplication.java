@@ -12,9 +12,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-import com.study.llm.infrastructure.rag.ContextDocumentReader;
-import com.study.llm.infrastructure.rag.chunk.DocumentSectionParser;
-import com.study.llm.infrastructure.rag.model.ContextDocument;
+import com.study.llm.infrastructure.rag.reader.ContextDocumentReader;
+import com.study.llm.infrastructure.rag.section.DocumentSectionParser;
+import com.study.llm.infrastructure.rag.reader.model.ContextDocument;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,5 +1,5 @@
 
-package com.study.llm.infrastructure.rag;
+package com.study.llm.infrastructure.rag.reader;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,8 +11,8 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.ResourcePatternResolver;
 import org.springframework.stereotype.Component;
 
-import com.study.llm.infrastructure.rag.model.ContextDocument;
-import com.study.llm.infrastructure.rag.model.DocumentMetadata;
+import com.study.llm.infrastructure.rag.reader.model.ContextDocument;
+import com.study.llm.infrastructure.rag.reader.model.DocumentMetadata;
 
 import lombok.extern.slf4j.Slf4j;
 

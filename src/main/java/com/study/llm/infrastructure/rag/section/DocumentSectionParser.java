@@ -1,5 +1,5 @@
 
-package com.study.llm.infrastructure.rag.chunk;
+package com.study.llm.infrastructure.rag.section;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 
 import org.springframework.stereotype.Component;
 
-import com.study.llm.infrastructure.rag.chunk.model.Category;
+import com.study.llm.infrastructure.rag.section.model.Category;
 
 import lombok.extern.slf4j.Slf4j;
 
