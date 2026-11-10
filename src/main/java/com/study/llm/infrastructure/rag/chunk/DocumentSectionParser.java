@@ -23,6 +23,14 @@ public class DocumentSectionParser {
 
         Matcher matcher = QUESTION_START.matcher(content);
 
+        if (!matcher.find()) {
+            log.info("Nenhuma pergunta numerada encontrada. Mantendo documento como uma única seção.");
+        
+            return List.of(content.trim());
+        }
+        
+        matcher.reset();
+
         List<String> sections = new ArrayList<>();
 
         int currentQuestionStart = -1;
