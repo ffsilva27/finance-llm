@@ -4,10 +4,6 @@ title: Perguntas Frequentes da CVM
 url: "https://www.gov.br/cvm/pt-br/acesso-a-informacao-cvm/perguntas-frequentes-da-cvm"
 ---
 
-# Perguntas Frequentes da CVM
-
-## Perguntas Frequentes da CVM
-
 -   1 - Qual o papel da CVM?
 
 A Comissão de Valores Mobiliários (CVM) é a instituição do governo

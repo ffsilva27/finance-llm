@@ -2,7 +2,9 @@
 package com.study.llm;
 
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
@@ -40,28 +42,41 @@ public class LlmApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        if (runIngest) {
-            try {
-                List<ContextDocument> documents = contextDocumentReader.readAndValidate();
+        if (!runIngest) {
+            log.info("Ingestão desabilitada.");
+            return;
+        }
 
-                for (ContextDocument document : documents) {
-                    if ("B3".equals(document.metadata().source())
-                            && "Perguntas frequentes | B3".equals(
-                                    document.metadata().title())) {
+        try {
+            List<ContextDocument> documents = contextDocumentReader.readAndValidate();
 
-                        List<String> sections = documentSectionParser.parse(document.content());
+            log.info("Total de documentos encontrados: {}", documents.size());
 
-                        log.info("Documento: {}", document.metadata().title());
-                        log.info("Total de seções: {}", sections.size());
-                    }
-                }
+            Map<String, Integer> documentsBySource = new HashMap<>();
+            Map<String, Integer> sectionsBySource = new HashMap<>();
 
-            } catch (IOException e) {
-                log.error(
-                        "Erro ao rodar a ingestão de documentos: {}",
-                        e.getMessage(),
-                        e);
+            for (ContextDocument document : documents) {
+                String source = document.metadata().source();
+
+                List<String> sections = documentSectionParser.parse(document.content());
+
+                documentsBySource.merge(source, 1, Integer::sum);
+                sectionsBySource.merge(source, sections.size(), Integer::sum);
             }
+
+            log.info("========== RESUMO DA INGESTÃO ==========");
+
+            documentsBySource.forEach((source, totalDocuments) -> log.info(
+                    "Fonte: {} | Documentos: {} | Seções: {}",
+                    source,
+                    totalDocuments,
+                    sectionsBySource.get(source)));
+
+        } catch (IOException e) {
+            log.error(
+                    "Erro ao rodar a ingestão de documentos: {}",
+                    e.getMessage(),
+                    e);
         }
 
         log.info("Running...");
