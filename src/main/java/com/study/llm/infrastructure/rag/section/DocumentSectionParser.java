@@ -20,13 +20,9 @@ public class DocumentSectionParser {
     private static final Pattern QUESTION_START = Pattern.compile("(?m)^[ \t]*-[ \t]*(\\d+)[ \t]*(?:-|\\.)[ \t]*");
 
     public List<DocumentSection> parse(String content) {
-        log.info("Iniciando parse da seção do documento");
-
         Matcher matcher = QUESTION_START.matcher(content);
 
         if (!matcher.find()) {
-            log.info("Nenhuma pergunta numerada encontrada. Mantendo documento como uma única seção.");
-        
             return List.of(new DocumentSection(null, content.trim(), 0));
         }
         
