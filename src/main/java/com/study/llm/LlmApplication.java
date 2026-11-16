@@ -14,6 +14,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 import com.study.llm.infrastructure.rag.reader.ContextDocumentReader;
 import com.study.llm.infrastructure.rag.section.DocumentSectionParser;
+import com.study.llm.infrastructure.rag.section.model.DocumentSection;
 import com.study.llm.infrastructure.rag.reader.model.ContextDocument;
 
 import lombok.extern.slf4j.Slf4j;
@@ -58,7 +59,7 @@ public class LlmApplication implements CommandLineRunner {
             for (ContextDocument document : documents) {
                 String source = document.metadata().source();
 
-                List<String> sections = documentSectionParser.parse(document.content());
+                List<DocumentSection> sections = documentSectionParser.parse(document.content());
 
                 documentsBySource.merge(source, 1, Integer::sum);
                 sectionsBySource.merge(source, sections.size(), Integer::sum);

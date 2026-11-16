@@ -8,7 +8,8 @@ import java.util.regex.Pattern;
 
 import org.springframework.stereotype.Component;
 
-import com.study.llm.infrastructure.rag.section.model.Category;
+import com.study.llm.infrastructure.rag.section.model.CategoryBoundary;
+import com.study.llm.infrastructure.rag.section.model.DocumentSection;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -18,7 +19,7 @@ public class DocumentSectionParser {
 
     private static final Pattern QUESTION_START = Pattern.compile("(?m)^[ \t]*-[ \t]*(\\d+)[ \t]*(?:-|\\.)[ \t]*");
 
-    public List<String> parse(String content) {
+    public List<DocumentSection> parse(String content) {
         log.info("Iniciando parse da seção do documento");
 
         Matcher matcher = QUESTION_START.matcher(content);
@@ -26,12 +27,12 @@ public class DocumentSectionParser {
         if (!matcher.find()) {
             log.info("Nenhuma pergunta numerada encontrada. Mantendo documento como uma única seção.");
         
-            return List.of(content.trim());
+            return List.of(new DocumentSection(null, content.trim(), 0));
         }
         
         matcher.reset();
 
-        List<String> sections = new ArrayList<>();
+        List<DocumentSection> sections = new ArrayList<>();
 
         int currentQuestionStart = -1;
         int previousQuestionEnd = 0;
@@ -42,7 +43,7 @@ public class DocumentSectionParser {
 
             int sectionEnd = matcher.start();
 
-            Category newCategory = null;
+            CategoryBoundary newCategory = null;
 
             if (questionNumber == 1) {
                 newCategory = extractCategory(
@@ -60,8 +61,7 @@ public class DocumentSectionParser {
                         currentQuestionStart,
                         sectionEnd).trim();
 
-                sections.add(
-                        "Categoria: " + currentCategory + "\n" + sectionContent);
+                sections.add(new DocumentSection(currentCategory, sectionContent, sections.size()));
             }
 
             if (newCategory != null) {
@@ -75,8 +75,10 @@ public class DocumentSectionParser {
         if (currentQuestionStart >= 0) {
             String sectionContent = content.substring(currentQuestionStart).trim();
 
-            sections.add(
-                    "Categoria: " + currentCategory + "\n" + sectionContent);
+            sections.add(new DocumentSection(
+                currentCategory,
+                sectionContent,
+                sections.size()));
         }
 
         log.info("Total de seções identificadas: {}", sections.size());
@@ -84,7 +86,7 @@ public class DocumentSectionParser {
         return sections;
     }
 
-    private Category extractCategory(
+    private CategoryBoundary extractCategory(
             String content,
             int previousQuestionEnd,
             int questionPosition) {
@@ -105,7 +107,7 @@ public class DocumentSectionParser {
                 int titleOffset = line.indexOf(title);
                 int categoryStart = previousQuestionEnd + lineStart + titleOffset;
 
-                return new Category(title, categoryStart);
+                return new CategoryBoundary(title, categoryStart);
             }
 
             end = lineStart - 1;
