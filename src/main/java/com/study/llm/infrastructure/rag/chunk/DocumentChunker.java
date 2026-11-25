@@ -8,21 +8,39 @@ import com.study.llm.infrastructure.rag.chunk.model.DocumentChunk;
 import com.study.llm.infrastructure.rag.reader.model.DocumentMetadata;
 import com.study.llm.infrastructure.rag.section.model.DocumentSection;
 
-@Component 
+import dev.langchain4j.model.embedding.onnx.HuggingFaceTokenCountEstimator;
+
+@Component
 public class DocumentChunker {
 
-    public List<DocumentChunk> chunk(
-        DocumentSection section,
-        DocumentMetadata metadata
+    private final HuggingFaceTokenCountEstimator tokenCountEstimator;
+
+    public DocumentChunker(
+            HuggingFaceTokenCountEstimator tokenCountEstimator
     ) {
-        return List.of(
-            new DocumentChunk(
-                section.content(),
-                metadata,
-                section,
-                0
-            )
-        );
+        this.tokenCountEstimator = tokenCountEstimator;
     }
 
+    public List<DocumentChunk> chunk(
+            DocumentSection section,
+            DocumentMetadata metadata
+    ) {
+        int tokenCount = tokenCountEstimator.estimateTokenCountInText(
+            section.content()
+        );
+
+        if (tokenCount <= 450) {
+            return List.of(
+                new DocumentChunk(
+                    section.content(),
+                    metadata,
+                    section,
+                    0
+                )
+            );
+        }
+    
+        // Próxima etapa: tratar seções com mais de 450 tokens.
+        return List.of();
+    }
 }

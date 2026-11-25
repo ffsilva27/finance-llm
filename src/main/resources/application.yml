@@ -35,3 +35,5 @@ telegram:
 
 rag:
   run-ingest: true
+  embedding:
+    tokenizer-path: models/multilingual-e5-small/tokenizer.json
