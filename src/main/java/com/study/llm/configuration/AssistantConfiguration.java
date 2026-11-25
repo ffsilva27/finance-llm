@@ -9,14 +9,14 @@ import com.study.llm.domain.tool.FinanceTools;
 
 import dev.langchain4j.memory.chat.ChatMemoryProvider;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
-import dev.langchain4j.model.chat.ChatLanguageModel;
+import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.service.AiServices;
 
 @Configuration
 public class AssistantConfiguration {
 
     @Bean
-    FinanceAssistant financeAssistant(ChatLanguageModel model, CaffeineCacheConfiguration store, List<FinanceTools> tools) {
+    FinanceAssistant financeAssistant(ChatModel model, CaffeineCacheConfiguration store, List<FinanceTools> tools) {
         ChatMemoryProvider provider = memoryId ->
         MessageWindowChatMemory.builder()
                 .id(memoryId)
@@ -25,7 +25,7 @@ public class AssistantConfiguration {
                 .build();
 
         return AiServices.builder(FinanceAssistant.class)
-                .chatLanguageModel(model)
+                .chatModel(model)
                 .chatMemoryProvider(provider)
                 .tools(tools.toArray())
                 .build();
